@@ -7,19 +7,19 @@ import sys
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
 import asyncio
 
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "28408609"))
+API_HASH = os.environ.get("API_HASH", "d6ddeafb0c189d91b8197ad49103e806")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8696973845:AAEq6RZ3D9aptezcBu7QF2iP7RJT3x4Poag")
 
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "UptimeRobot")
 
-OWNER = int(os.environ.get("OWNER", ""))
-ADMINS = os.environ.get("ADMINS", "")
+OWNER = int(os.environ.get("OWNER", "5665480584"))
+ADMINS = os.environ.get("ADMINS", "5665480584")
 ADMINS = [int(admin) for admin in (ADMINS).split(" ")]
 ADMINS.append(OWNER)
 
-MAIN_CHANNEL = os.environ.get("MAIN_CHANNEL", "") # log channel
+MAIN_CHANNEL = os.environ.get("MAIN_CHANNEL", "-1002599753693") # log channel
 FORCE_SUB_TEXT = os.environ.get(
     "FORCE_SUB_TEXT",
     """<b><i>❗️ You must join our channel before using this feature:</i></b>"""
