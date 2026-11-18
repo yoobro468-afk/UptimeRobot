@@ -14,12 +14,12 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "8696973845:AAEq6RZ3D9aptezcBu7QF2iP7RJT
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "UptimeRobot")
 
-OWNER = int(os.environ.get("OWNER", "5665480584"))
+OWNER = int(os.environ.get("OWNER", "8672112080"))
 ADMINS = os.environ.get("ADMINS", "5665480584")
 ADMINS = [int(admin) for admin in (ADMINS).split(" ")]
 ADMINS.append(OWNER)
 
-MAIN_CHANNEL = os.environ.get("MAIN_CHANNEL", "-1002599753693") # log channel
+MAIN_CHANNEL = os.environ.get("MAIN_CHANNEL", "-1002761663485") # log channel
 FORCE_SUB_TEXT = os.environ.get(
     "FORCE_SUB_TEXT",
     """<b><i>❗️ You must join our channel before using this feature:</i></b>"""
